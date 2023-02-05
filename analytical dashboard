@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa-IR">
+<head>
+  <title>Kudos | Golrang system</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="Google chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+  <link
+  rel="stylesheet"
+  media="screen and (max-device-height: 799px)"
+  href="http://foo.bar.com/short-styles.css" />
+  <!-- <link rel="stylesheet" href="kudos.css"> -->
+ <style>
+  
+* {
+box-sizing: border-box;
+font-family: "IRANSans","Poppins", sans-serif;
+}
+
+iframe {
+  border: #ffffff00 solid 0.7px;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--iframe-color);
+  transition: var(--tran-03);
+}
+
+.bumble {
+align-content: center;
+width: 100%;
+height: 55px;
+background-color: #003cff;
+color: white;
+text-align: right;
+vertical-align: middle;
+border-radius:6px;
+margin: 10px 0px 5px 10px;
+margin-left: 20px;
+font-size: 12px;
+}
+
+h2 {
+padding: 12px 30px;
+font-weight: 120;
+vertical-align: middle;
+}
+ </style>
+</head>
+<body>
+  <div class="bumble">
+    <h2>گزارش سیستم قدردانی کودوس (پایلوت)</h2>
+  </div>
+    <iframe title="kudos dashboard" width="100%" height="620px" 
+    src="https://app.powerbi.com/reportEmbed?reportId=cca9bb87-7d32-46e0-95be-27516584d558&autoAuth=true&ctid=05a7ba18-6bbe-4b81-b56a-ab6809c437eb" frameborder="0" allowFullScreen="true">
+    </iframe>
+
+</body>
